@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clip Studio — Privacy Policy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Clip Studio · Last updated: November 24, 2026</p>
+
+  <h2>1. Summary</h2>
+  <p>Clip Studio is a personal desktop application that runs only on its owner's computer. It has no servers of its own, does not collect analytics, and does not sell, share or transfer data to anyone. The only external service it talks to on your behalf is TikTok, and only after you connect your account.</p>
+
+  <h2>2. Data received from TikTok</h2>
+  <p>When you connect your TikTok account through TikTok Login Kit, Clip Studio receives and stores on your own computer:</p>
+  <ul>
+    <li>Your TikTok open ID, display name, username and avatar URL (scope <code>user.info.basic</code>).</li>
+    <li>The OAuth access token and refresh token, with their expiry dates and granted scopes.</li>
+    <li>Your current posting options returned by the Content Posting API (available privacy levels, whether comments, duets and stitches are allowed, maximum video duration).</li>
+    <li>The identifiers and status of the posts you publish through the app.</li>
+  </ul>
+
+  <h2>3. How the data is used</h2>
+  <p>This data is used only to show which account is connected and to upload and publish the videos you choose, with the caption, privacy and settings you choose (scopes <code>video.upload</code> and <code>video.publish</code>). It is not used for advertising, profiling or any other purpose.</p>
+
+  <h2>4. Storage and security</h2>
+  <p>All data is stored in a local database on your computer. OAuth tokens are encrypted at rest with AES-256-GCM using a key kept in a local configuration file. The application only listens on the loopback interface (127.0.0.1) and is not reachable from other machines.</p>
+
+  <h2>5. Sharing</h2>
+  <p>Clip Studio does not share any data with third parties. Videos and captions are sent only to TikTok, when you publish them.</p>
+
+  <h2>6. Retention and deletion</h2>
+  <p>Pressing "Disconnect" in Clip Studio revokes the TikTok authorization and deletes the stored account and tokens. You can also revoke access at any time from your TikTok account settings. Deleting the application's local database removes all remaining data.</p>
+
+  <h2>7. TikTok</h2>
+  <p>Content you publish is processed by TikTok under the <a href="https://www.tiktok.com/legal/privacy-policy">TikTok Privacy Policy</a>.</p>
+
+  <h2>8. Changes and contact</h2>
+  <p>This policy may be updated; the date above shows the latest version. Questions can be sent by opening an issue in this site's repository.</p>
+
+  <footer><a href="terms.html">Terms of Service</a> · <a href="index.html">Clip Studio</a></footer>
+</main>
+</body>
+</html>
